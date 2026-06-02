@@ -21,7 +21,7 @@
   "header": {
 
     "_generates": "assets/header.svg",
-    "_comment": "null = fetch from GitHub API",
+    "_comment": null,
 
     "name": null,
     "bio": null
@@ -30,14 +30,13 @@
   "typing": {
 
     "_generates": "assets/typing.svg",
-    "_comment": "null or [] = fetch from GitHub profile (bio, company, location, blog)",
+    "_comment": null,
 
     "lines": [
-      ".NET & C# Developer",
-      "ASP.NET Core · Node.js",
-      "HTML · CSS · JavaScript",
-      "AI-Assisted Engineering",
-      "Spec-Driven Development"
+      "HTML CSS JS",
+      "TS React",
+      "Python Django",
+      "Git Docker"
     ]
   },
 
@@ -56,16 +55,14 @@
       "_generates": "assets/badges/{id}.svg"
     },
 
-    { "id": "csharp",        "text": "C#",           "color": "#1d7a1a" },
-    { "id": "javascript",    "text": "JAVASCRIPT",   "color": "#e0c910" },
     { "id": "html5",         "text": "HTML5",        "color": "#cc4420" },
     { "id": "css3",          "text": "CSS3",         "color": "#1262a0" },
-    { "id": "dotnet",        "text": ".NET",         "color": "#4d2680" },
-    { "id": "aspnet-core",   "text": "ASP.NET CORE", "color": "#4422bb" },
+    { "id": "javascript",    "text": "JAVASCRIPT",   "color": "#e0c910" },
     { "id": "nodejs",        "text": "NODE.JS",      "color": "#2b802b" },
+    { "id": "python",        "text": "PYTHON",       "color": "#58a0e4" },
+    { "id": "django",        "text": "DJANGO",       "color": "#67d569" },
     { "id": "git",           "text": "GIT",          "color": "#d94229" },
     { "id": "github",        "text": "GITHUB",       "color": "#1c2025" },
-    { "id": "visual-studio", "text": "VISUAL STUDIO","color": "#4d2680" },
     { "id": "vscode",        "text": "VS CODE",      "color": "#0069b3" },
     { "id": "claude-code",   "text": "CLAUDE CODE",  "color": "#bf6a05" }
   ],
@@ -85,7 +82,7 @@
     "show": {
       "commits":   true,
       "prs":       true,
-      "issues":    true,
+      "issues":    false,
       "stars":     true,
       "repos":     true,
       "followers": true

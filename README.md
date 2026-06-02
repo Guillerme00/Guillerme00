@@ -1,16 +1,3 @@
-## easy-github-profile
-
-A zero-effort GitHub profile README setup. Fork it and your profile is live instantly — fully customizable, no coding required.
-
-> 👇 See setup instructions below.
-
-<br>
-
----
-
-> 👤 Example profile.
-
-<!-- PROFILE:START -->
 <img src="assets/header.svg" width="100%"/>
 <img src="assets/typing.svg" width="100%"/>
 <img src="assets/divider.svg" width="100%"/>
@@ -44,6 +31,7 @@ A zero-effort GitHub profile README setup. Fork it and your profile is live inst
   <img src="assets/badges/visual-studio.svg">
   <img src="assets/badges/vscode.svg">
   <img src="assets/badges/claude-code.svg">
+  
 </div>
 <br>
 <img src="assets/footer.svg" width="100%"/>
@@ -236,32 +224,6 @@ No configuration needed — these are static animated SVGs.
 All generated assets are just image files — place them anywhere in `README.md` however you like. Here's the full example used in this repo:
 
 ```html
-<img src="assets/header.svg" width="100%"/>
-<img src="assets/typing.svg" width="100%"/>
-<img src="assets/divider.svg" width="100%"/>
-<br>
-<div align="center">
-  <img src="assets/stats.svg"/>
-</div>
-<br>
-<img src="assets/divider.svg" width="100%"/>
-<br>
-<div align="center">
-  <img src="assets/langs.svg" width="100%"/>
-</div>
-<br>
-<img src="assets/divider.svg" width="100%"/>
-<div align="center">
-  <img src="assets/labels/lang.svg"/><br>
-  <img src="assets/badges/csharp.svg">
-  <img src="assets/badges/javascript.svg">
-  <br><br>
-  <img src="assets/labels/fw.svg"/><br>
-  <img src="assets/badges/dotnet.svg">
-  <img src="assets/badges/aspnet-core.svg">
-</div>
-<br>
-<img src="assets/footer.svg" width="100%"/>
 ```
 
 | Asset | Path |
@@ -280,7 +242,3 @@ All generated assets are just image files — place them anywhere in `README.md`
 ---
 
 <br>
-
-## 📄 License
-
-MIT © [BerkaySevinc](https://github.com/BerkaySevinc)
